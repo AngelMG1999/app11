@@ -1,0 +1,519 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>segunda aplicacion</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app11.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/> 
+<!--grupo JavaScript-->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/lagocontaminado.jpg','imagenes/puebla2.jpg','imagenes/nacho2.jpg','imagenes/Atlixco-2.jpg','imagenes/tape1.jpg','imagenes/villa1.jpg','imagenes/huey1.jpg','imagenes/cerro1.jpg','imagenes/charro1.jpg')">
+
+<div data-role="page" id="principal" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+<h1>ATLIXCO, PUEBLA</h1>
+</div>
+<div>
+<ul data-role="listview" data-theme="b" class="ui-list ui-group-theme-b">
+<center>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/1101770x470.jpg" alt="Batalla" title="Batalla" id="wows1_0"/></li>
+		<li><img src="data1/images/406432.jpg" alt="Batalla" title="Batalla" id="wows1_1"/></li>
+		<li><img src="data1/images/casafea.jpg" alt="hBatalla" title="Batalla" id="wows1_2"/></li>
+		<li><img src="data1/images/images.jpg" alt="Batalla" title="Batalla" id="wows1_3"/></li>
+		<li><img src="data1/images/img_0009.jpg" alt="Batalla" title="Batalla" id="wows1_4"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/incineracin.jpg" alt="Batalla" title="Batalla" id="wows1_5"/></a></li>
+		<li><img src="data1/images/viviendas4.jpg" alt="Batalla" title="Batalla" id="wows1_6"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="1101-770x470"><span><img src="data1/tooltips/1101770x470.jpg" alt="1101-770x470"/>1</span></a>
+		<a href="#" title="406432"><span><img src="data1/tooltips/406432.jpg" alt="406432"/>2</span></a>
+		<a href="#" title="casafea"><span><img src="data1/tooltips/casafea.jpg" alt="casafea"/>3</span></a>
+		<a href="#" title="images"><span><img src="data1/tooltips/images.jpg" alt="images"/>4</span></a>
+		<a href="#" title="IMG_0009"><span><img src="data1/tooltips/img_0009.jpg" alt="IMG_0009"/>5</span></a>
+		<a href="#" title="incineración"><span><img src="data1/tooltips/incineracin.jpg" alt="incineración"/>6</span></a>
+		<a href="#" title="viviendas4"><span><img src="data1/tooltips/viviendas4.jpg" alt="viviendas4"/>7</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+</center>
+<li class="ui-first-child ui-las ">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Atlixco</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Ubicacion</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r ">
+<h2>Cerro de San Miguel</h2>
+
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r ">
+<h2>Tradiciones</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r ">
+<h2>Leyendas</h2>
+
+</a> 
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r ">
+<h2>Viveros</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r ">
+<h2>Ferias</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r ">
+<h2>Datos del diseñador</h2>
+
+</a>
+</li>
+</ul>
+</div>
+
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div>
+<img src="imagenes/mdpi.PNG" width="80" height="80">
+</div>
+<div>
+<h4>ATLIXCO DE LOS OVNIS</h4>
+<h4>Angel de Jesus Miranda Genis</h4>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Atlixco, Puebla</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image21','','imagenes/Atlixco-2.jpg',1)"><img src="imagenes/atlixco1.jpg" width="300" height="162" id="Image21"></a></h2>
+<h2>Heroica Atlixco también conocido como «Atlixco de las flores», es un municipio que se localiza al suroeste de la Ciudad de Puebla. Recibió su título de «Heroica»9 debido a la Batalla del 4 de mayo de 1862 que precedería a la Batalla de Puebla del 5 de mayo de 1862.</h2>
+
+<h2>Es conocido por su buen clima y la gran actividad florística, comercial y turística que le valieron haber sido llamada Atlixco de las Flores y Granero de la Nueva España, durante la época colonial.</h2>
+
+<h2>El último domingo de septiembre, en la explanada del cerro de San Miguel, Atlixco se convierte en la sede de un festival en el que se reúnen los representantes de las once regiones culturales del estado de Puebla, festival que es llamado «Huey Atlixcáyotl» o Fiesta Grande de Atlixco y que es patrimonio cultural del estado de Puebla.</h2>
+
+<h2>En 1884, el Congreso local decretó que la cabecera municipal de Atlixco se llamara «Atlixco de Múgica y Osorio»; en honor al Benemérito del Estado de Puebla, Juan Múgica y Osorio.</h2>
+<div data-role="main" class="ui-content" align="center">
+ <div style="width:60%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+ <li class="ui-first-child ui-last-child">
+ <a href="https://es.wikipedia.org/wiki/Atlixco" data-role="button">
+ <h5>Mayor informacion</h5>
+ </a>
+ </li>
+ </ul>
+  </div>
+<h1>&nbsp;</h1>
+</div>
+ </div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>ATLIXCO DE LOS OVNIS</h4>
+<h4>Angel de Jesus Miranda Genis</h4>
+</div>
+</div>
+</div>
+
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Ubicacion de Atlixco</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>Para poder llegara Atlixco desde cualquier parte, Aqui dejaremos un mapa el cual te apoyara con la ruta para llegar.</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60393.74917767565!2d-98.48162467392028!3d18.90440511965253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfb3eee015f935%3A0x5c4b12a3f9f700e7!2sAtlixco%2C+Pue.!5e0!3m2!1ses!2smx!4v1496106551942" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+ </div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>ATLIXCO DE LOS OVNIS</h4>
+<h4>Angel de Jesus Miranda Genis</h4>
+</div>
+</div>
+
+
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Cerro de San Miguel</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>
+También conocido como Popocatica (cerro que humea) o Macuilxochitpec (cerro de las cinco flores), es el lugar en donde se realiza la fiesta máxima de Atlixco que se lleva a cabo el último domingo de septiembre y para la que se reúnen los representantes de las once regiones culturales de Puebla. Pero aunque tu visita no coincida con la fecha, el lugar te ofrece una maravillosa vista panorámica y siempre puedes visitar la Capilla de San Miguel.</h2>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Cerro de Man Miguel</h1>
+<div>
+<br>
+</div>
+<div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image415','','imagenes/cerro1.jpg',1)"><img src="imagenes/cerro.jpg" width="236" height="236" id="Image415"></a></div>
+</div>
+</div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>ATLIXCO DE LOS OVNIS</h4>
+<h4>Angel de Jesus Miranda Genis</h4>
+</div>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Leyendas</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>El diable del cerro de San Miguel</h2>
+
+<P>Una de tantas historias que hay dentro de este lugar, simbolo de esta ciudad de Atlixco. </P>
+
+<P>Una de las tradiciones de ATLIXCO es el visitar el dia de san Miguel ,la capilla del cerro que lleva su nombre, disfrutar la fiesta en que dicha fecha se celebra en este lugar goza de la romeria y antojitos que se expenden, y uno que otro año regresar a casa chorreando por el aguacero que normalmente se presenta. Algo que las nuevas generaciones ya no encuentra al visitar la capilla de SAN MIGUEL, es la antigua figura del DIABLO, figura de madera como de 45 centimetros que se encontraba amarrado bajo la figura del principe,como nos lo relata Don Juan Morelos.</P>
+<p>Quien recuerda que en 1985,todavia existia dicha figura ,que por tradicion se subia a la capilla los dias de fiesta y acabando se regresaba EL DIABLO a la sacristia de SAN FRANCISCO donde se amarraba "con una cadena a un tubo" con la cara hacia la pared tradicion que tenian todos los mayordomos del lugar.En dicho sitio se llegaban a encontrar amarres y figuritas en la espalda del DEMONIO ,por lo que el SEñOR CURA URIBE, lo avento a un sotano que se piensa es un tunel del Convento de SAN FRANCISCO, por lo que a partir de ese dia no se volvio a ver al DIABLO en su antiguo lugar.Cabe mencionar que la figura del DIABLO era antigua , con un incalculable valor historico y monetario.Seria bueno investigar que paso realmente con este MISTERIOSO Y LEGENDARIO DIABLITO DEL CERRO DE SAN MIGUEL.
+Acaso Este ERA el Diablito del que todos hablaban.</p>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Foto</h1>
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/diablito.png" width="35%" height="40%"></div>
+</div>
+</div>
+<div data-role="main" class="ui-content" align="center">
+ <div style="width:60%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+ <li class="ui-first-child ui-last-child">
+ <a href="http://atlixcos.blogspot.mx/2007/01/el-diablito-del-cerro-de-san-miguel.html" data-role="button">
+ <h5>Leyenda completa</h5>
+ </a>
+ </li>
+ </ul>
+  </div>
+ </div>
+
+
+<H2>El nagual de atlixco</H2>
+
+<p>Cuenta la tradición que hace algunas décadas en una comunidad rural ubicada a escasos treinta minutos de la ciudad atlixco puebla, en casas de adobe y techos de palma sostenidas en troncos de árboles con rusticas puertas de tablas se albergaban algunas familias campesinas dueñas de pequeños grupos de ganado y aves de corral, se cuenta que estos animales desaparecían de sus corrales sin que se supiera que pasaba con ellos los, animales eran buscados mas nuca se supo su paradero una noche a las orillas de este lugar el cual carecía de energía eléctrica y solo iluminaba a las casas, velas y lámparas de petróleo, don Luciano se encontraba acompañado de su hijo y algunos amigos los cuales platicaban alrededor de una fogata lo sucedido una noche anterior sin darse cuenta que estaba próximo el amanecer, entre las sombras rondaba un cauteloso perro de aspecto común y corriente, ninguno de ellos se daba cuenta de las malas intenciones de este, por las tardes en un corral cercano después del pastoreo encerraban a sus cabras, al caer la noche estas se mostraban inquietas presintiendo un gran peligro, el perro conocía la manera de entrar al corral sin ser visto para robarse alguna de ellas, las cabras al ver a este se mostraban mansas pues su sola presencia ejercía un gran poder sobre ellas al darse cuenta el perro guardián de las cabras comenzó a ladrar de manera insistente tratando de ahuyentar a este ser y alertar al mismo tiempo a sus dueños que hacían poco caso por la amena platica</p>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Foto</h1>
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/nahual.jpeg" width="35%" height="40%"></div>
+</div>
+</div>
+
+<div data-role="main" class="ui-content" align="center">
+ <div style="width:60%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+ <li class="ui-first-child ui-last-child">
+ <a href="http://mitosyleyendas.com.mx/el-nagual-de-atlixco/" data-role="button">
+ <h5>Leyenda completa</h5>
+ </a>
+ </li>
+ </ul>
+  </div>
+ </div>
+<H2>Charro negro</H2>
+
+<p>En el año de 1895, es cuando se inicio la construcción de la fábrica de Metepec y ya posteriormente se hizo la instalación de la vía del ferrocarril “Metepec-Atlixco”, que fueron 10 kilómetros, así como la vía “Metepec-Santa Catarina”, que está ubicada en las faldas de volcán Popocatepetl, con 32 kilómetros por cierto que en esta hacienda se ubicaba el aserradero, propiedad de la compañía industrial de Atlixco S.A., teniendo 2 locomotoras para su servicio y de esta construcción surge la leyenda del “CHARRO NEGRO”</p>
+
+<p>el cual no dejaba construir por ningún motivo el puente que hasta en la actualidad lleva su nombre, en ese tiempo contrataron a muchos trabajadores que tenían que excavar la barranca, en la que se iba a construir el puente.</p>
+
+<p>Los trabajadores empezaron a instalar los pilares y para terminar el trabajo de manera rápida la obra se encontraba en cada pilar un oficial con 8 ayudantes y así lo hicieron, pero para su sorpresa al día siguiente, todo lo que habían construido el día anterior se encontraba derrumbado, a tal grado que todo estaba caído y esto se repetía durante varios días.</p>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Foto</h1>
+<div>
+<br>
+</div>
+<div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image452','','imagenes/charro1.jpg',1)"><img src="imagenes/charro.jpg" width="1600" height="824" id="Image452"></a></div>
+</div>
+</div>
+
+<div data-role="main" class="ui-content" align="center">
+ <div style="width:60%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+ <li class="ui-first-child ui-last-child">
+ <a href="http://www.hechosdeatlixco.com/index.php?option=com_k2&view=item&id=93:leyenda-del-%E2%80%9Ccharro-negro%E2%80%9D&lang=en" data-role="button">
+ <h5>Leyenda completa</h5>
+ </a>
+ </li>
+ </ul>
+  </div>
+ 
+
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>ATLIXCO DE LOS OVNIS</h4>
+<h4>Angel de Jesus Miranda Genis</h4>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Tradiciones</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>Huey Atlixcáyotl</h2>
+<p>Huey Atlixcáyotl es el nombre de un festival cultural que se realiza en el cerro de San Miguel, en la parte conocida como Netotiloyan(Cerro de la danza), en el municipio de Atlixco, Puebla el último domingo de septiembre de cada año. El nombre de este festejo que se celebra en torno a la fiesta de San Miguel Arcángel es de origen náhuatl y quiere decir Gran Fiesta de Atlixco. Pero traducido por las raíces de la lengua náhuatl el sufijo "Yotl" más Atlixco se traduce como "Atlixquedad"</p>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Huey Atlixcáyotl</h1>
+<div>
+<br>
+</div>
+<div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image468','','imagenes/huey1.jpg',1)"><img src="imagenes/huey.jpg" width="600" height="401" id="Image468"></a></div>
+</div>
+</div>
+</div>
+<div data-role="main" class="ui-content" align="center">
+ <div style="width:60%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+ <li class="ui-first-child ui-last-child">
+ <a href="https://www.youtube.com/watch?v=py9RyqZfS7Y" data-role="button">
+ <h5>Video</h5>
+ </a>
+ </li>
+ </ul>
+  </div>
+<h2>Villa Iluminada</h2>
+<p>Cierro los ojos, faltan unos segundos para las siete de la noche, escucho las voces emocionadas de toda la gente a mi alrededor. Los abro y veo que la ciudad se ha llenado de colores. En un camino de 2 km verás figuras que te contarán los villancicos, ¡todo iluminado!</p>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Villa Iluminada</h1>
+<div>
+<br>
+</div>
+<div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image482','','imagenes/villa1.jpg',1)"><img src="imagenes/villa.jpg" width="670" height="300" id="Image482"></a></div>
+</div>
+</div>
+</div>
+<h2>Tapetes Monumentales</h2>
+<p>echo con más de 100 mil plantas de flor de cempasúchil y amaranto, entre otras, se realizó el tapete monumental conmemorativo al Día de Muertos —en homenaje a José Guadalupe Posadas— frente a la presidencia municipal de Atlixco, el cual fue bendecido por el obispo auxiliar de Puebla.</p>
+<div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+<h1>Tapetes Monumentales</h1>
+<div>
+<br>
+</div>
+<div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image40','','imagenes/tape1.jpg',1)"><img src="imagenes/tape.jpg" width="700" height="463" id="Image40"></a></div>
+</div>
+</div>
+ <div data-role="footer" data-theme="b" data-position="fixed">
+<h4>ATLIXCO DE LOS OVNIS</h4>
+<h4>Angel de Jesus Miranda Genis</h4>
+</div>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Viveros</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+
+<h2>En Atlixco existe un gran clima lo cual favorese al 100% produccion de flores, en Atlixco existe una zona en la colonia Cabrera la cual esta llena ne viveros en los que destacan:</h2>
+<h2>Megaviveros</h2>
+<p>Megaviveros cuenta ya casi con 10 años dando servicios de alta calidad a sus clientes. Su objetivo principal es el de poder llegar a ser una de las empresas más importantes</p>
+<h2>Viveros orquideas</h2>
+<p>En Viveros Orquídeas somos expertos en diseños de jardinería, así como también en diseños de jardines áreas verdes, pasto, campos de fútbol y plantas. No busque otras opciones</p>
+
+<h2>Flornatec</h2>
+<p>Flornatec es una empresa que tiene como objetivo primordial el embellecimiento de espacios; en los hogares, lugares de trabajo, de recreación o proyectos en construcción.</p>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/vivero1.jpg" alt="vivero1" title="vivero1" id="wows1_0"/></li>
+		<li><img src="data1/images/vivero2.jpg" alt="vivero2" title="vivero2" id="wows1_1"/></li>
+		<li><img src="data1/images/vivero3.jpg" alt="vivero3" title="vivero3" id="wows1_2"/></li>
+		<li><img src="data1/images/vivero4.jpg" alt="vivero4" title="vivero4" id="wows1_3"/></li>
+		<li><img src="data1/images/vivero5.jpg" alt="vivero5" title="vivero5" id="wows1_4"/></li>
+		<li><img src="data1/images/vivero6.jpg" alt="vivero6" title="vivero6" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/vivero7.jpg" alt="css slider" title="vivero7" id="wows1_6"/></a></li>
+		<li><img src="data1/images/vivero8.jpg" alt="vivero8" title="vivero8" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="vivero1"><span><img src="data1/tooltips/vivero1.jpg" alt="vivero1"/>1</span></a>
+		<a href="#" title="vivero2"><span><img src="data1/tooltips/vivero2.jpg" alt="vivero2"/>2</span></a>
+		<a href="#" title="vivero3"><span><img src="data1/tooltips/vivero3.jpg" alt="vivero3"/>3</span></a>
+		<a href="#" title="vivero4"><span><img src="data1/tooltips/vivero4.jpg" alt="vivero4"/>4</span></a>
+		<a href="#" title="vivero5"><span><img src="data1/tooltips/vivero5.jpg" alt="vivero5"/>5</span></a>
+		<a href="#" title="vivero6"><span><img src="data1/tooltips/vivero6.jpg" alt="vivero6"/>6</span></a>
+		<a href="#" title="vivero7"><span><img src="data1/tooltips/vivero7.jpg" alt="vivero7"/>7</span></a>
+		<a href="#" title="vivero8"><span><img src="data1/tooltips/vivero8.jpg" alt="vivero8"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wow slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+</div>
+ </div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>ATLIXCO DE LOS OVNIS</h4>
+<h4>Angel de Jesus Miranda Genis</h4>
+</div>
+</div>
+
+
+
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Ferias</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>Feria de la noche buena</h2>
+<p>A partir del último viernes de Noviembre los mejores productores de la región exponen y venden una variedad enorme de plantas de Nochebuena que son producidas en los viveros de la zona de Cabrera, así como del corredor gastronómico a precios competitivos en mayoreo y menudeo concentrados en el Recinto Ferial de Atlixco</p>
+<div data-role="main" class="ui-content" align="center">
+ <div style="width:60%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+ <li class="ui-first-child ui-last-child">
+ <a href="http://turismoatlixco.com/feria-de-la-noche-buena/" data-role="button">
+ <h5>Mayor informacion</h5>
+ </a>
+ </li>
+ </ul>
+  </div>
+<h2>Feria de la cecina</h2>
+<p>El gobierno de Atlixco a cargo de José Luis Galeazzi Berra con apoyo de la Secretaría de Turismo del Estado invitan a los poblanos y entidades cercanas a su onceava Feria de la Cecina a realizarse este 30 y 31 de julio, en el recinto ferial de este municipio, con la finalidad de promover Atlixco como un lugar de destino a través de la gastronomía, cultura y tradición. </p>
+<div data-role="main" class="ui-content" align="center">
+ <div style="width:60%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+ <li class="ui-first-child ui-last-child">
+ <a href="https://www.todopuebla.com/eventos/feriadelacecinaenatlixco" data-role="button">
+ <h5>Mayor informacion</h5>
+ </a>
+ </li>
+ </ul>
+  </div>
+</div>
+ </div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>ATLIXCO DE LOS OVNIS</h4>
+<h4>Angel de Jesus Miranda Genis</h4>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Diseñador</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>Escuela: CBTis 16</h2>
+<h2>Grado: 4 Grupo: "H"</h2>
+<h2>Especialidad: Programacion</h2>
+<h2>Nombre: Angel Miranda Genis</h2>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Foto</h1>
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/yop.jpg" width="35%" height="40%"></div>
+</div>
+</div>
+<div data-role="main" class="ui-content" align="center">
+ <div style="width:60%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+ <li class="ui-first-child ui-last-child">
+ <a href="http://www.cbtis016.edu.mx/" data-role="button">
+ <h5>Informacion de la escuela</h5>
+ </a>
+ </li>
+ </ul>
+  </div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>ATLIXCO DE LOS OVNIS</h4>
+<h4>Angel de Jesus Miranda Genis</h4>
+</div>
+</div>
+</div>
+ </div>
+
+
+
+
+
+</body>
+</html>
