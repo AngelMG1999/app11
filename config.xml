@@ -2,14 +2,13 @@
 
 <widget xmins="http://www.w3.org/ns/widgets"
  xmlns:gap="http://phonegap.com/ns/1.0"
- id="com.phonegap.example2"
+ id="com.phonegap.example11"
  version="1.0.0">
  
- <name>Gia turistica de Atlixco</name>
+ <name> app10 Gia turistica de Atlixco</name>
  
  <description>
-Muestra lo Mejor de atlixco
- </description>
+ Muestra lo mejor de Atlixco</description>
  
  <author href="https://build.phonegap.com" email="genismirandaangel82@gmail.com">
   Angel Miranda Genis
@@ -30,8 +29,7 @@ Muestra lo Mejor de atlixco
   <plugin name="cordova-plugin-vibration" spec="~2.1.3"/>
   <plugin name="cordova-plugin-dialogs" spec="~1.3.1"/>
   
-  <plugin name="cordova-plugin-geolocation" source=npm"/> 
-  
+  <!--<plugin name="cordova-plugin-geolocation" source=npm"/> -->
    <!--third party plugins-->
    
    <!-- para accesar a paginas de internet-->
