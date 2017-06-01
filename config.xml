@@ -2,16 +2,15 @@
 
 <widget xmins="http://www.w3.org/ns/widgets"
  xmlns:gap="http://phonegap.com/ns/1.0"
- id="com.phonegap.example7"
+ id="com.phonegap.example10"
  version="1.0.0">
  
- <name> app6 BATALLA DE PUEBLA</name>
+ <name> app10 Guia turistica de Atlixco</name>
  
  <description>
- Aplicacion que muestra los DATOS sobre la batalla de puebla
- </description>
+ Muestra lo mejor de Atlixco</description>
  
- <author href="https://build.phonegap.com" email="genismirandaangel82@gmail.com">
+  <author href="https://build.phonegap.com" email="genismirandaangel82@gmail.com">
   Angel Miranda Genis
   </author>
   
